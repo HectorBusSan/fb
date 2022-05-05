@@ -1,0 +1,3 @@
+Para regresar del area de trabajo a el directorio del trabajo
+git restore --stage archivo
+git status
