@@ -10,7 +10,7 @@
   "keywords": [],
   "description": "",
   "devDependencies": {
-    "jest": "^28.0.3",
+    "jest": "^26.0.0",
     "test": "^0.6.0"
   }
 }
