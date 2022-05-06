@@ -1,3 +1,5 @@
-Para regresar del area de trabajo a el directorio del trabajo
+    Para regresar del area de trabajo a el directorio del trabajo
 git restore --stage archivo
 git status
+    vamos a ver todos los commits
+git log --pretty=oneline
