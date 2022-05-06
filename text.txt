@@ -3,3 +3,23 @@ git restore --stage archivo
 git status
     vamos a ver todos los commits
 git log --pretty=oneline
+
+ya que agregamos un git acción que tenemos en la carpeta de .github
+
+SI SURGE UN ERROR Y VEMOS QUE NO SALE EL ERROR EN EL TEST
+RECOMENDACIÓN
+npm install --save-dev jest@26.0.0 
+
+
+linter
+nos permite darle formato y estilo a nuestro codigo
+npm install eslint --save-dev
+    cofiguramos: va pedir configurarlo a tu gusto o por default usamos el 2
+npm init @eslint/config
+
+le agregamos al package json
+    "linter": "node ./node_modules/eslint/bin/eslint.js .",
+    "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
+
+para ver nuestros errores
+npm run linter
