@@ -23,3 +23,6 @@ le agregamos al package json
 
 para ver nuestros errores
 npm run linter
+
+y arreglar con
+npm run linter-fix
